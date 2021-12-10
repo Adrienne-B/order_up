@@ -96,7 +96,7 @@ html {
 }
  
 body {
-  background-color: white;
+  /*background-color: white;*/
   font-size: 1em;
  /* color: #e2e3ed;*/
 }
@@ -106,16 +106,16 @@ html, body {
   padding:0;
   overflow-x:hidden;	
 	/*prevents white space from the right side*/
+ /* background-color: black;*/
 }
 
 h1 {
-  color: black;
+  /*color: black;*/
   font-family: 'Comic Sans MS';
-  font-family: ;
 }
 
 h2 {
-  color: black;
+  /*color: black;*/
   font-family: 'Comic Sans MS';
   font-weight: 500;
   font-size: 1.875em;
@@ -279,15 +279,55 @@ img:hover {
 
   body {
     line-height: 1.4;
-    color: #222;
+    /*color: #222;*/
+    color: #fff;
     transition: all 0.25s ease-in;
+    /*This is the dark theme mode section*/
+    background-image: url("../img/darkmode-background.jpg");
   }
-  
-  body.dark {
-    background-color: black;
-    color: white;
+
+  body.light {
+    background-color: white;
+    color: black;
     background-image: url("../img/background-light.jpeg");
   }
+
+    
+  .switch.dark {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 34px;
+    background-color: #222;
+    border-radius: 34px;
+  }
+
+  .ball.light {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: transform 0.2s ease-out;
+  }
+
+
+ /* 
+h1 {
+  color: black;
+  font-family: 'Comic Sans MS';
+}
+
+h2 {
+  color: black;
+  font-family: 'Comic Sans MS';
+  font-weight: 500;
+  font-size: 1.875em;
+}*/
+
 
 /*End of body and html*/
 
@@ -351,7 +391,7 @@ h1 {
     display: inline-block;
     width: 70px;
     height: 34px;
-    background-color: #222;
+    background-color: #222;   /*THE INSIDE OF THE SWITCH CAN BE A DIFFERENT COLOR*/
     border-radius: 34px;
   }
   
@@ -371,7 +411,6 @@ h1 {
     -ms-transform: translateX(34px);
     transform: translateX(34px);
   }
-
 
   .switch-container input {
     margin-bottom: 17rem;
@@ -542,34 +581,11 @@ img {
   width: 12rem;
  }
 
-/*.wrapper_5 .div-15 h4 {
-  font-size: 1.2rem;
-  position: relative;
-  left: 9rem;
-  top: 8rem;
-  text-align: center;
-  word-wrap: break-word;
-  width: 13rem;
- }
- 
-
-/*
- .div-18 h4 {
-  font-size: 1.2rem;
-  position: relative;
-  left: 2.9rem;
-  text-align: center;
-  word-wrap: break-word;
-  width: 13rem;
- }
- */
- 
-
-
-
 
  /*End of headers*/
 
+
+ /*
  .div-7 p, .div-8 p, .div-9 p, .div-10 p, .div-11 p, .div-12 p{
   align-items: center;
   color: black;
@@ -578,7 +594,7 @@ img {
   line-height: 19px;
   padding-left: 40px;
   text-align: justify;
-}
+}*/                           /*THIS WAS THE REASON MAJORITY OF THE PARAGRAPHS WOULDN'T TURN WHTIE IN THE DARK MODE THEME*/
 
   .div-8 p {
   position: relative;
