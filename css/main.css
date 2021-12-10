@@ -146,9 +146,10 @@ figure {
  margin: 0;
 }
 
-
-
-
+img:hover {
+  transition: transform .2s; /* Animation */
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 
 
@@ -534,9 +535,11 @@ img {
  .div-16 h4 {
   font-size: 1.2rem;
   position: relative;
-  left: -5.8rem;
+  left: -9.7rem;
   text-align: center;
   top: -3.3rem;
+  word-wrap: break-word;
+  width: 12rem;
  }
 
 /*.wrapper_5 .div-15 h4 {
@@ -617,7 +620,7 @@ img {
  .div-18 p {
   font-size: 0.9rem;
   position: relative;
-  left: 14.9rem;
+  left: 19.9rem;
   top: 4.2rem;
   word-wrap: break-word;
   width: 68%;
@@ -635,35 +638,28 @@ img {
   width: 52rem;
  }
 
-
-
-
- 
-
  .wrapper_4 {
   display: flex;
   font-family: 'Bahnschrift';
   justify-content: center;
   align-items: center;
  }
+/*not sure what this is but it is end*/
 
 
-/*
-.wrapper_3 {
-  color: #000;
+.div-19 {
+  position: relative;
+  left: -13rem;
+  top: 3rem;
 }
 
-.wrapper p {
-  margin-top: -8rem;
-}*/
+.div-20 {
+  position: relative;
+  left: 13rem;
+  top: 3rem;
+}
 
-
-
-
-
-
-
-
+/*End of fish prices*/
 
 /*
 img {
@@ -675,8 +671,6 @@ img {
   flex-basis: 100px;
 }
 */
-
-
  
 .card_1 {
   display: flex;
@@ -725,13 +719,13 @@ img {
   display: flex;
   justify-content: center;
   margin-left: -32rem;
-  margin-top: -14.5rem;
+  margin-top: -11.5rem;
 }
 
 .card_8 {
   display: flex;
   justify-content: center;
-  margin-left: 55rem;
+  margin-left: 27rem;
   margin-top: -4.5rem;
 }
 
@@ -765,6 +759,7 @@ button {
 #root2 {
   color:chocolate;
 }
+
 
 
 
