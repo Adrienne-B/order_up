@@ -116,7 +116,7 @@ h1 {
 
 h2 {
   color: black;
-  font-family: ;
+  font-family: 'Comic Sans MS';
   font-weight: 500;
   font-size: 1.875em;
 }
@@ -130,6 +130,10 @@ h4 {
   top: -9rem;
 }
 
+h5 {
+  font-family: 'Kristen ITC';
+}
+
 p{
   font-family: 'Cormorant Garamond', serif;
 }
@@ -141,6 +145,8 @@ img {
 figure {
  margin: 0;
 }
+
+
 
 
 
@@ -262,9 +268,6 @@ figure {
     justify-content: center;
     margin: 0;	
   }
-  
-
-
 
   body {
     font-family: 'Roboto' , sans-serif;
@@ -284,9 +287,55 @@ figure {
     color: white;
     background-image: url("../img/background-light.jpeg");
   }
-  
 
 /*End of body and html*/
+
+
+h1 {
+  font-family: 'Comic Sans MS';
+  text-align: center;
+} 
+
+  h2 {
+    position: relative;
+    left: 9rem;
+    top: -1rem;
+  }
+  
+  h5{
+    line-height: 15px;
+    font-size: 13px;
+  }
+
+  .row_1 {
+   display: flex;
+   flex-direction: row;
+   position: relative;
+  }
+  
+ /*End of Fonts and flexbox*/
+
+
+#instructions h1 {
+  font-family: 'Indie Flower', cursive;
+  margin-left: -59rem;
+}
+
+#instructions p {
+  font-family: 'Exo', sans-serif;
+  /*font-family: 'Permanent Marker', cursive;*/
+  /*font-family: 'Indie Flower', cursive;*/
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  margin-left: 7rem;
+  margin-bottom: 7rem;
+  /*margin-left: 15rem;*/
+  word-wrap: break-word;
+  width: 75%;
+}
+
+/*End of instruction section*/
 
 
   .switch-container input {
@@ -323,47 +372,42 @@ figure {
   }
 
 
+  .switch-container input {
+    margin-bottom: 17rem;
+    margin-top: -6rem;
+    height: 0;
+    width: 0;
+    opacity: 0;
+  }
+
   /*End of toggle ball switch*/
-
-
-
-
-
-
-#instructions h1 {
-  font-family: 'Indie Flower', cursive;
-  margin-left: -59rem;
-}
-
-.switch-container {
-  margin-bottom: 17rem;
-  margin-top: -6rem;
-}
-
-#instructions p {
-  font-family: 'Exo', sans-serif;
-  /*font-family: 'Permanent Marker', cursive;*/
-  /*font-family: 'Indie Flower', cursive;*/
-  font-family: 'Architects Daughter', cursive;
-  font-size: 1.2rem;
-  line-height: 1.4rem;
-  margin-left: 7rem;
-  margin-bottom: 7rem;
-  /*margin-left: 15rem;*/
-  word-wrap: break-word;
-  width: 75%;
-}
-
-
-
-
-
 
 
 
   .introduction{
     line-height: 10px;
+    margin-top: 10rem;
   }
+
+  .introduction2 h1 {
+    margin-top: 15rem;
+  }
+ 
+  .introduction3 h1 {
+   margin-top: 15rem;
+  }
+
+  /*Gives space to each section*/
+
+
+
+
+
+
+
+
+
+
   .wrapper {
     /*add display:flex and set justify-content to space-between*/
     
@@ -385,18 +429,12 @@ figure {
                                             /* background-color: #f16059;*/
     height: 300px;
   }
-  .img{
+  .img {
     display: flex;
     justify-content: center;
   }
   
-  h1{
-    font-family: 'Playfair Display', seriff;
-  }
-  h5{
-    line-height: 15px;
-    font-size: 13px;
-  }
+
   .wrapper_2 {
     display: flex;
     justify-content: space-around;
@@ -410,52 +448,66 @@ figure {
     justify-content: space-around;
     font-weight: 700;
   }
-  .div-7, .div-8, .div-9, p{
-    align-items: center;
-    color: black;
-    display: flex;
-    font-size: 14px;
-    line-height: 19px;
-    /*justify-item: space-between;*/
-    padding-left: 40px;
-    text-align: justify;
-  }
 
 
-h1 {
-  font-family: 'Comic Sans MS';
-  text-align: center;
-}  
-
-h4 {
-  font-size: 1.0rem;
-  position: relative;
-  top: -9rem;
-}
 
 img {
   margin-left: 10rem;
   width: 35%;
  }
 
+.div-1  {
+  position: relative;
+  left: 3.2rem;
+  margin-bottom: 1.3rem;
+  top: 0.2rem;
+  width: 32%;
+}
+
+.div-2 {
+  position: relative; 
+  left: 1.9rem;
+  top: 0.2rem;
+  width: 39%;
+}
+
+.div-3 {
+  position: relative; 
+  left: -1.5rem;
+  top: 0.16rem;
+  width: 33%;
+}
+
+.div-13 {
+  position: relative; 
+  left: -2.5rem;
+  top: 5.0rem;
+  width: 33%;
+}
+
+.div-14 {
+  position: relative; 
+  left: 23.9rem;
+  top: -2.16rem;
+  width: 33%;
+}
+
+/*images of the food*/
+
+
  .div-4 h4 {
   font-size: 1.2rem;
   position: relative;
-  left: -1.4rem;
+  left: 3.3rem;
   text-align: center;
   word-wrap: break-word;
   width: 12rem;
  }
 
- #deluxe {
-   position: relative;
-   left: 23rem;
- }
-
  .div-5 h4 {
   font-size: 1.2rem;
   position: relative;
-  left: -1.001rem;
+  left: 3.3rem;
   word-wrap: break-word;
   width: 12rem;
  }
@@ -463,11 +515,117 @@ img {
  .div-6 h4 {
   font-size: 1.2rem;
   position: relative;
-  left: -2.5rem;
+  left: 0.8rem;
   text-align: center;
   word-wrap: break-word;
   width: 13rem;
  }
+
+ .div-15 h4 {
+  font-size: 1.2rem;
+  position: relative;
+  left: 9rem;
+  top: -3rem;
+  text-align: center;
+  word-wrap: break-word;
+  width: 9rem;
+ }
+ 
+ .div-16 h4 {
+  font-size: 1.2rem;
+  position: relative;
+  left: -5.8rem;
+  text-align: center;
+  top: -3.3rem;
+ }
+
+/*.wrapper_5 .div-15 h4 {
+  font-size: 1.2rem;
+  position: relative;
+  left: 9rem;
+  top: 8rem;
+  text-align: center;
+  word-wrap: break-word;
+  width: 13rem;
+ }
+ 
+
+/*
+ .div-18 h4 {
+  font-size: 1.2rem;
+  position: relative;
+  left: 2.9rem;
+  text-align: center;
+  word-wrap: break-word;
+  width: 13rem;
+ }
+ */
+ 
+
+
+
+
+ /*End of headers*/
+
+ .div-7 p, .div-8 p, .div-9 p, .div-10 p, .div-11 p, .div-12 p{
+  align-items: center;
+  color: black;
+  display: flex;
+  font-size: 14px;
+  line-height: 19px;
+  padding-left: 40px;
+  text-align: justify;
+}
+
+  .div-8 p {
+  position: relative;
+  left: 10rem;
+}
+
+ .div-9 p {
+  position: relative;
+  left: 19rem;
+ }
+
+ .div-10 p {
+  font-size: 1.35rem;
+  position: relative;
+  left: -23rem;
+}
+
+.div-11 p {
+ font-size: 1.35rem;
+ position: relative;
+ left: -2rem;
+}
+
+.div-12 p {
+ font-size: 1.35rem;
+ position: relative;
+ left: 19rem;
+}
+
+.div-17 p {
+  font-size: 0.9rem;
+  position: relative;
+  left: 15.9rem;
+  top: 4rem;
+  word-wrap: break-word;
+  width: 68%;
+ }
+
+ .div-18 p {
+  font-size: 0.9rem;
+  position: relative;
+  left: 14.9rem;
+  top: 4.2rem;
+  word-wrap: break-word;
+  width: 68%;
+ }
+
+ /*End of description/paragraph*/
+
+
 
  .wrapper_3 {
   position: relative;
@@ -475,22 +633,12 @@ img {
   margin-top: -10rem;
   word-wrap: break-word;
   width: 52rem;
-
  }
 
- .div-8 {
-  position: relative;
-  left: 9rem;
- }
 
- .div-9 {
-  position: relative;
-  left: 19rem;
- }
 
- .introduction2 h1 {
-   margin-top: 15rem;
- }
+
+ 
 
  .wrapper_4 {
   display: flex;
@@ -499,39 +647,15 @@ img {
   align-items: center;
  }
 
- .div-10 p {
-   font-size: 1.35rem;
-   position: relative;
-   left: -23rem;
- }
 
- .div-11 p {
-  font-size: 1.35rem;
-  position: relative;
-  left: -2rem;
-}
-
-.div-12 p {
-  font-size: 1.35rem;
-  position: relative;
-  left: 19rem;
-}
-
+/*
 .wrapper_3 {
   color: #000;
 }
 
 .wrapper p {
   margin-top: -8rem;
-}
-
-.wrapper_4 {
-  margin-bottom: 17rem;
-}
-
-.wrapper_5 {
-  margin-left: 18rem;
-}
+}*/
 
 
 
@@ -539,61 +663,7 @@ img {
 
 
 
-.base {
-  background-color: #000;
-  height: 45rem;
-  margin-top: -8rem;
-  position: relative;
-  left: 10rem;
-  top: 12rem;
-  width: 70%;
-}
 
-#background {
-  background-color: #fff;
-  padding-top: 29rem;
-  position: relative;
-  left: 4rem;
-  top: 2rem;
-  width: 47%;
-}
-
-h2 {
-  font-family: 'Comic Sans MS';
-  position: relative;
-  left: 9rem;
-  top: -1rem;
-}
-
-h5 {
-  font-family: 'Kristen ITC';
-}
-
-.row_1 {
- display: flex;
- flex-direction: row;
- position: relative;
-}
-
-#cheese_burger {
-  position: relative;
-  top: -26.2rem;
-  width: 24%;
-}
-
-#deluxe {
-  position: relative; 
-  left: 10rem;
-  top: -38rem;
-  width: 27%;
-}
-
-#mac {
-  position: relative; 
-  left: 23rem;
-  top: -50rem;
-  width: 21%;
-}
 
 /*
 img {
@@ -606,11 +676,8 @@ img {
 }
 */
 
- #fish1 img {
-  margin-left: 2rem;
-  width: 1.3rem;
-}
 
+ 
 .card_1 {
   display: flex;
   justify-content: center;
@@ -654,17 +721,50 @@ img {
 }
 
 
+.card_7 {
+  display: flex;
+  justify-content: center;
+  margin-left: -32rem;
+  margin-top: -14.5rem;
+}
+
+.card_8 {
+  display: flex;
+  justify-content: center;
+  margin-left: 55rem;
+  margin-top: -4.5rem;
+}
 
 button {
   border-style: none;
   box-shadow: 8px 80x 20px #00000027, -8px -8px 20px #969393;
-  height: 70px;
+  height: 44px;
+  margin-left: 1.3rem;
   outline: none;
-  width: 70px;
+  width: 68px;
 }
 
+/*Creates the increments*/
 
+.wrapper_4 {
+  margin-bottom: 17rem;
+}
 
+.wrapper_5 {
+  margin-left: 18rem;
+}
+/*Moves increments position*/
+
+#root {
+  color:chocolate;
+  position: relative;
+  left: -0.1rem;
+  top: -2.2rem;
+}
+
+#root2 {
+  color:chocolate;
+}
 
 
 
