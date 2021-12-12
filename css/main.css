@@ -289,7 +289,8 @@ img:hover {
   body.light {
     background-color: white;
     color: black;
-    background-image: url("../img/background-light.jpeg");
+    background-image: url("../img/daymode-background.jpg")
+    /*background-image: url("../img/background-light.jpeg");*/
   }
 
     
@@ -330,6 +331,7 @@ h2 {
 
 
 /*End of body and html*/
+
 
 
 h1 {
@@ -497,6 +499,7 @@ img {
  }
 
 .div-1  {
+  cursor: pointer;
   position: relative;
   left: 3.2rem;
   margin-bottom: 1.3rem;
@@ -505,6 +508,7 @@ img {
 }
 
 .div-2 {
+  cursor: pointer;
   position: relative; 
   left: 1.9rem;
   top: 0.2rem;
@@ -512,6 +516,7 @@ img {
 }
 
 .div-3 {
+  cursor: pointer;
   position: relative; 
   left: -1.5rem;
   top: 0.16rem;
@@ -519,6 +524,7 @@ img {
 }
 
 .div-13 {
+  cursor: pointer;
   position: relative; 
   left: -2.5rem;
   top: 5.0rem;
@@ -526,6 +532,7 @@ img {
 }
 
 .div-14 {
+  cursor: pointer;
   position: relative; 
   left: 23.9rem;
   top: -2.16rem;
@@ -772,7 +779,7 @@ button {
   top: -2.2rem;
 }
 
-#root2 {
+#root_two {
   color:chocolate;
 }
 
