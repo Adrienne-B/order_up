@@ -590,7 +590,122 @@ img {
  }
 
 
- /*End of headers*/
+ /*End of headers for the first page*/
+
+
+ .div-one {
+   position: relative;
+   left: 2rem;
+   top: 2.3rem;
+   width: 87%;
+ }
+
+ .div-two {
+  position: relative;
+  left: 2rem;
+  top: 2.3rem;
+  width: 113%;
+}
+
+.div-three {
+  position: relative;
+  left: 2rem;
+  top: 2.3rem;
+  width: 113%;
+}
+
+ .div-four h4 {
+  font-size: 1.2rem;
+  position: relative;
+  left: 3.3rem;
+  top: 1.4rem;
+  text-align: center;
+  word-wrap: break-word;
+  width: 12rem;
+ }
+
+ .div-five h4 {
+  font-size: 1.2rem;
+  position: relative;
+  left: 3.3rem;
+  top: 1.4rem;
+  word-wrap: break-word;
+  width: 12rem;
+ }
+
+ .div-six h4 {
+  font-size: 1.2rem;
+  position: relative;
+  left: 0.8rem;
+  top: 1.4rem;
+  text-align: center;
+  word-wrap: break-word;
+  width: 13rem;
+ }
+
+ .div-seven p {
+  position: relative;
+  left: 5rem;
+  top: 11.4rem;
+}
+
+  .div-eight p {
+  position: relative;
+  left: 15rem;
+  top: 11.4rem;
+}
+
+ .div-nine p {
+  position: relative;
+  left: 27rem;
+  top: 11.4rem;
+ }
+
+ .div-ten p {
+  position: relative;
+  right: 23rem;
+  top: 11rem;
+ }
+
+ .div-eleven {
+  position: relative;
+  top: 11rem;
+ }
+
+ .div-twelve p {
+  position: relative;
+  left: 32rem;
+  top: 11rem;
+ }
+
+ .contain_one {
+  position: relative;
+  top: 11.4rem;
+ }
+
+ .contain_two {
+  position: relative;
+  top: 11.4rem;
+ }
+
+ .contain_three {
+  position: relative;
+  left: 6rem;
+  top: 11.4rem;
+ }
+
+
+
+ /*End of headers for the second page*/
+
+
+
+
+
+
+
+
+
 
 
  /*
@@ -779,6 +894,7 @@ button {
 }
 /*Moves increments position*/
 
+
 #root {
   color:chocolate;
   position: relative;
@@ -786,9 +902,6 @@ button {
   top: -2.2rem;
 }
 
-#root_two {
-  color:chocolate;
-}
 
 a {
   text-decoration: none;

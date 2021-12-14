@@ -52,19 +52,17 @@
 <body>
 
 <script>
-  var data=0;
+ var data=0;
+document.getElementById("root").innerText=data;
+function decrement(){
+  data=data-1;
   document.getElementById("root").innerText=data;
-  function decrement(){
-    data=data-1;
-    document.getElementById("root").innerText=data;
-  }
-  function increment(){
-    data=data+1;
-    document.getElementById("root").innerText=data;
-  };
+}
+function increment(){
+  data=data+1;
+  document.getElementById("root").innerText=data;
+};
 </script>
-
-
 
 
   <div id="instructions">
@@ -98,7 +96,7 @@
       
 <br>
     
-      <section class="wrapper">
+      <section class="wrapper_one">
         <div class="div-1">
           <figure>
            <img src="img/cheese_burger.png" id="cheese_burger" alt="cheese_burger" width= "11px"/>
@@ -107,7 +105,7 @@
       
         <div class="div-2">
           <figure>
-            <img src="img/deluxe.png" id="deluxe" alt="deluxe"/>
+            <img src="img/deluxe.png" id="deluxe" alt="deluxe" width="10"/>
           </figure>	
         </div>
       
@@ -165,6 +163,7 @@
           <p>$5.25</p>
         </div>
       </section>  
+
       
       <div class="contain">
         <div class="card_1">
@@ -224,7 +223,7 @@
 
 <br>
 
-        <section class="wrapper_2">
+        <section class="wrapper_two">
           <div class="div-4">
             <h4>Grilled Chicken Sandwich</h4>
           </div>
@@ -377,7 +376,7 @@
 <section class = "arrows">
   <a href="" class="previous">&laquo;back</a>
   <a href="" class="submit">submit</a>
-  <a href="" class="next">Next&raquo;</a>
+  <a href="file:///C:/Users/Guest1/Desktop/F.E.D_projects/order_up/side/index.html" class="next">Next&raquo;</a>
 </section>
 
         
