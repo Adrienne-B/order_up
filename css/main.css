@@ -248,6 +248,7 @@ img:hover {
   html {
     background-color: #fff;
     height: 100%;
+  
   }
   
   header {
@@ -603,47 +604,34 @@ img {
   text-align: justify;
 }*/                           /*THIS WAS THE REASON MAJORITY OF THE PARAGRAPHS WOULDN'T TURN WHTIE IN THE DARK MODE THEME*/
 
+.div-7 p {
+  position: relative;
+  left: 5rem;
+}
+
   .div-8 p {
   position: relative;
-  left: 10rem;
+  left: 15rem;
 }
 
  .div-9 p {
   position: relative;
-  left: 19rem;
+  left: 27rem;
  }
 
- .div-10 p {
+.div-17 p {
   font-size: 1.35rem;
   position: relative;
-  left: -23rem;
-}
-
-.div-11 p {
- font-size: 1.35rem;
- position: relative;
- left: -2rem;
-}
-
-.div-12 p {
- font-size: 1.35rem;
- position: relative;
- left: 19rem;
-}
-
-.div-17 p {
-  font-size: 0.9rem;
-  position: relative;
-  left: 15.9rem;
+  left: 17.9rem;
   top: 4rem;
   word-wrap: break-word;
   width: 68%;
  }
 
  .div-18 p {
-  font-size: 0.9rem;
+  font-size: 1.35rem;
   position: relative;
-  left: 19.9rem;
+  left: 22.9rem;
   top: 4.2rem;
   word-wrap: break-word;
   width: 68%;
@@ -670,6 +658,25 @@ img {
 /*not sure what this is but it is end*/
 
 
+
+.div-10 p {
+  font-size: 1.35rem;
+  position: relative;
+  left: -23rem;
+}
+
+.div-11 p {
+ font-size: 1.35rem;
+ position: relative;
+ left: 1rem;
+}
+
+.div-12 p {
+ font-size: 1.35rem;
+ position: relative;
+ left: 27rem;
+}
+
 .div-19 {
   position: relative;
   left: -13rem;
@@ -682,7 +689,7 @@ img {
   top: 3rem;
 }
 
-/*End of fish prices*/
+/*End of prices*/
 
 /*
 img {
@@ -804,28 +811,38 @@ a:hover {
 
 .previous {
   background-color: #f1f1f1;
-  color: black;
   border-radius: 5px;
+  color: black;
   position: relative;
   left: -1.3rem;
 }
 
 .submit {
   background-color: #ccc;
-  color: black;
   border-radius: 5px;
+  color: black;
 }
 
 .next {
   background-color: #4caff0;
-  color: white;
   border-radius: 5px;
+  color: white;
   position: relative;
   left: 1.3rem;
 }
 
 
-Next Prev Arrow html
+/*
+#back-to-top-arrow {
+  bottom: 40px;
+  position: fixed;
+  left: 87rem;
+  width: 45%;
+ 
+}
+
+
+
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
