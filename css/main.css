@@ -151,6 +151,11 @@ img:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+.img {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 /* ==========================================================================
@@ -317,24 +322,6 @@ img:hover {
   }
 
 
- /* 
-h1 {
-  color: black;
-  font-family: 'Comic Sans MS';
-}
-
-h2 {
-  color: black;
-  font-family: 'Comic Sans MS';
-  font-weight: 500;
-  font-size: 1.875em;
-}*/
-
-
-/*End of body and html*/
-
-
-
 h1 {
   font-family: 'Comic Sans MS';
   text-align: center;
@@ -433,65 +420,45 @@ h1 {
   }
 
   .introduction2 h1 {
-    margin-top: 15rem;
+    margin-top: 28rem;
   }
  
   .introduction3 h1 {
-   margin-top: 15rem;
+   margin-top: 25rem;
   }
 
   /*Gives space to each section*/
 
 
 
-
-
-
-
-
-
-
-  .wrapper {
-    /*add display:flex and set justify-content to space-between*/
-    
+  .wrapper_1 {
     display: flex;
-   /* justify-content: space-around;*/
     font-weight: 700;
+    margin-top: 15rem;
   }
   
-  .div-1, .div-2, .div-3 {
-    /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-    
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    line-height: 1.5em;
-    font-size: 1.6em;
-                                            /* background-color: #f16059;*/
-    height: 300px;
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-  }
-  
-
   .wrapper_2 {
     display: flex;
     justify-content: space-around;
+    margin-top: -35rem;
     font-weight: 700;
-    
   }
-  .wrapper_3 {
-    /*add display:flex and set justify-content to space-between*/
-    
+
+  .wrapper_3 {  
     display: flex;
     justify-content: space-around;
     font-weight: 700;
   }
 
+  .wrapper_5 {
+    /*add display:flex and set justify-content to space-between*/
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+  }
+
+
+  /* End of sections*/
 
 
 img {
@@ -499,72 +466,93 @@ img {
   width: 35%;
  }
 
+ .div-1, .div-2, .div-3 {
+  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  line-height: 1.5em;
+  font-size: 1.6em;
+                                          /* background-color: #f16059;*/
+  height: 300px;
+}
+
 .div-1  {
   cursor: pointer;
   position: relative;
   left: 3.2rem;
   margin-bottom: 1.3rem;
-  top: 0.2rem;
+  top: 3.1rem;
   width: 32%;
+  /*cheese burger and grilled chicken*/
 }
 
 .div-2 {
   cursor: pointer;
   position: relative; 
-  left: 1.9rem;
-  top: 0.2rem;
+  left: 28.9rem;
+  top: -17rem;
   width: 39%;
+  /*Bacon cheese burger and cheesy chicken*/
 }
 
 .div-3 {
   cursor: pointer;
   position: relative; 
-  left: -1.5rem;
-  top: 0.16rem;
+  left: 58.5rem;
+  top: -36rem;
   width: 33%;
+  /*big mac and deluxe chicken*/
 }
+
 
 .div-13 {
   cursor: pointer;
   position: relative; 
-  left: -2.5rem;
+  left: -9rem;
   top: 5.0rem;
   width: 33%;
+  /*fish sandwich*/
 }
 
 .div-14 {
   cursor: pointer;
   position: relative; 
-  left: 23.9rem;
-  top: -2.16rem;
+  left: -12.8rem;
+  top: 4rem;
   width: 33%;
+  /*deluxe fish sandwich*/
 }
+
 
 /*images of the food*/
 
-
- .div-4 h4 {
+.div-4 h4 {
   font-size: 1.2rem;
+  margin-top: -32rem;
   position: relative;
-  left: 3.3rem;
+  left: 9.4rem;
   text-align: center;
   word-wrap: break-word;
   width: 12rem;
  }
 
- .div-5 h4 {
+.div-5 h4 {
   font-size: 1.2rem;
   position: relative;
-  left: 3.3rem;
+  left: 8.3rem;
+  top: -4.6rem;
   word-wrap: break-word;
   width: 12rem;
  }
 
- .div-6 h4 {
+.div-6 h4 {
   font-size: 1.2rem;
   position: relative;
-  left: 0.8rem;
+  left: 1.8rem;
   text-align: center;
+  top: -4.6rem;
   word-wrap: break-word;
   width: 13rem;
  }
@@ -572,8 +560,8 @@ img {
  .div-15 h4 {
   font-size: 1.2rem;
   position: relative;
-  left: 9rem;
-  top: -3rem;
+  left: 25rem;
+  top: 4rem;
   text-align: center;
   word-wrap: break-word;
   width: 9rem;
@@ -582,12 +570,238 @@ img {
  .div-16 h4 {
   font-size: 1.2rem;
   position: relative;
-  left: -9.7rem;
+  left: 53.7rem;
   text-align: center;
-  top: -3.3rem;
+  top: -1rem;
   word-wrap: break-word;
   width: 12rem;
  }
+
+ /*end of titles*/
+
+ .div-17 p {
+  font-size: 1.35rem;
+  position: relative;
+  left: 17.9rem;
+  top: -1.3rem;
+  word-wrap: break-word;
+  width: 68%;
+ }
+
+ .div-18 p {
+  font-size: 1.35rem;
+  position: relative;
+  left: 48.9rem;
+  top: -5.0rem;
+  word-wrap: break-word;
+  width: 18%;
+ }
+
+ .contain_one {
+  position: relative;
+  top: 11.4rem;
+ }
+
+ .contain_two {
+  position: relative;
+  top: 11.4rem;
+ }
+
+ .contain_three {
+  position: relative;
+  left: 6rem;
+  top: 11.4rem;
+ }
+
+
+
+ 
+.div-10 p {
+  font-size: 1.35rem;
+  position: relative;
+  left: -23rem;
+}
+
+.div-11 p {
+ font-size: 1.35rem;
+ position: relative;
+ left: 1rem;
+}
+
+.div-12 p {
+ font-size: 1.35rem;
+ position: relative;
+ left: 27rem;
+}
+
+.div-19 p {
+  position: relative;
+  left: 27rem;
+  top: -6rem;
+}
+
+.div-20 p {
+  position: relative;
+  left: 57rem;
+  top: -7rem;
+}
+
+/*End of prices*/
+
+/*
+img {
+  position: relative;
+  left: 2rem;
+  top: -22rem;
+  width: 40%;
+
+  flex-basis: 100px;
+}
+*/
+ 
+.card_1 {
+  display: flex;
+  justify-content: center;
+  margin-left: -57rem;
+  margin-top: -14rem;
+}
+
+.card_2{
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-top: -4.5rem;
+}
+
+.card_3{
+  display: flex;
+  justify-content: center;
+  margin-left: 55rem;
+  margin-top: -4.5rem;
+}
+
+.card_4 {
+  display: flex;
+  justify-content: center;
+  margin-left: -57rem;
+  margin-top: -14rem;
+}
+
+.card_5 {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-top: -4.5rem;
+}
+
+.card_6 {
+  display: flex;
+  justify-content: center;
+  margin-left: 55rem;
+  margin-top: -4.5rem;
+}
+
+
+.card_7 {
+  display: flex;
+  justify-content: center;
+  margin-left: -32rem;
+  margin-top: -4.5rem;
+}
+
+.card_8 {
+  display: flex;
+  justify-content: center;
+  margin-left: 27rem;
+  margin-top: -4.3rem;
+}
+
+button {
+  border-style: none;
+  box-shadow: 8px 80x 20px #00000027, -8px -8px 20px #969393;
+  height: 44px;
+  margin-left: 1.3rem;
+  outline: none;
+  width: 68px;
+}
+
+/*Creates the increments*/
+
+.wrapper_4 {
+  margin-bottom: 17rem;
+}
+
+.wrapper_5 {
+  margin-left: 18rem;
+}
+/*Moves increments position*/
+
+
+#root {
+  color:chocolate;
+  position: relative;
+  left: -0.1rem;
+  top: -2.2rem;
+}
+
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12rem;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  color: black;
+  position: relative;
+  left: -1.3rem;
+}
+
+.submit {
+  background-color: #ccc;
+  border-radius: 5px;
+  color: black;
+}
+
+.next {
+  background-color: #4caff0;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  left: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  /*End of headers for the first page*/
@@ -678,20 +892,33 @@ img {
   top: 11rem;
  }
 
- .contain_one {
-  position: relative;
-  top: 11.4rem;
+ .side_orders h1 {
+  margin-top: 30rem;
  }
 
- .contain_two {
-  position: relative;
-  top: 11.4rem;
+ .div-thirteen img {
+  margin-left: 5rem;
+  margin-top: 7rem;
+  width: 15%;
  }
 
- .contain_three {
-  position: relative;
-  left: 6rem;
-  top: 11.4rem;
+ .div-4 h4 {
+  margin-left: -9rem;
+  margin-top: 6rem;
+ }
+
+ .div-fourteen img 
+
+ .div-fourteen  {
+  width: 25%;
+ }
+
+ .div-fifteen  {
+  width: 25%;
+ }
+
+ .div-sixteen  {
+  width: 25%;
  }
 
 
@@ -734,23 +961,6 @@ img {
   left: 27rem;
  }
 
-.div-17 p {
-  font-size: 1.35rem;
-  position: relative;
-  left: 17.9rem;
-  top: 4rem;
-  word-wrap: break-word;
-  width: 68%;
- }
-
- .div-18 p {
-  font-size: 1.35rem;
-  position: relative;
-  left: 22.9rem;
-  top: 4.2rem;
-  word-wrap: break-word;
-  width: 68%;
- }
 
  /*End of description/paragraph*/
 
@@ -792,17 +1002,7 @@ img {
  left: 27rem;
 }
 
-.div-19 {
-  position: relative;
-  left: -13rem;
-  top: 3rem;
-}
 
-.div-20 {
-  position: relative;
-  left: 13rem;
-  top: 3rem;
-}
 
 /*End of prices*/
 
@@ -817,71 +1017,7 @@ img {
 }
 */
  
-.card_1 {
-  display: flex;
-  justify-content: center;
-  margin-left: -57rem;
-  margin-top: -14rem;
-}
 
-.card_2{
-  display: flex;
-  justify-content: center;
-  margin-left: 1rem;
-  margin-top: -4.5rem;
-}
-
-.card_3{
-  display: flex;
-  justify-content: center;
-  margin-left: 55rem;
-  margin-top: -4.5rem;
-}
-
-.card_4 {
-  display: flex;
-  justify-content: center;
-  margin-left: -57rem;
-  margin-top: -14rem;
-}
-
-.card_5 {
-  display: flex;
-  justify-content: center;
-  margin-left: 1rem;
-  margin-top: -4.5rem;
-}
-
-.card_6 {
-  display: flex;
-  justify-content: center;
-  margin-left: 55rem;
-  margin-top: -4.5rem;
-}
-
-
-.card_7 {
-  display: flex;
-  justify-content: center;
-  margin-left: -32rem;
-  margin-top: -11.5rem;
-}
-
-.card_8 {
-  display: flex;
-  justify-content: center;
-  margin-left: 27rem;
-  margin-top: -4.5rem;
-}
-
-button {
-  border-style: none;
-  box-shadow: 8px 80x 20px #00000027, -8px -8px 20px #969393;
-  height: 44px;
-  margin-left: 1.3rem;
-  outline: none;
-  width: 68px;
-}
 
 /*Creates the increments*/
 
@@ -895,54 +1031,6 @@ button {
 /*Moves increments position*/
 
 
-#root {
-  color:chocolate;
-  position: relative;
-  left: -0.1rem;
-  top: -2.2rem;
-}
-
-
-a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 8px 16px;
-}
-
-a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.arrows {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 12rem;
-}
-
-.previous {
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  color: black;
-  position: relative;
-  left: -1.3rem;
-}
-
-.submit {
-  background-color: #ccc;
-  border-radius: 5px;
-  color: black;
-}
-
-.next {
-  background-color: #4caff0;
-  border-radius: 5px;
-  color: white;
-  position: relative;
-  left: 1.3rem;
-}
 
 
 /*
