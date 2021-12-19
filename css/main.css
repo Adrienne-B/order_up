@@ -579,6 +579,24 @@ img {
 
  /*end of titles*/
 
+
+
+  
+.div-7 p {
+  position: relative;
+  left: 5rem;
+}
+
+  .div-8 p {
+  position: relative;
+  left: 15rem;
+}
+
+ .div-9 p {
+  position: relative;
+  left: 27rem;
+ }
+
  .div-17 p {
   font-size: 1.35rem;
   position: relative;
@@ -597,25 +615,7 @@ img {
   width: 18%;
  }
 
- .contain_one {
-  position: relative;
-  top: 11.4rem;
- }
 
- .contain_two {
-  position: relative;
-  top: 11.4rem;
- }
-
- .contain_three {
-  position: relative;
-  left: 6rem;
-  top: 11.4rem;
- }
-
-
-
- 
 .div-10 p {
   font-size: 1.35rem;
   position: relative;
@@ -648,16 +648,21 @@ img {
 
 /*End of prices*/
 
-/*
-img {
+.contain_one {
   position: relative;
-  left: 2rem;
-  top: -22rem;
-  width: 40%;
+  top: 11.4rem;
+ }
 
-  flex-basis: 100px;
-}
-*/
+ .contain_two {
+  position: relative;
+  top: 11.4rem;
+ }
+
+ .contain_three {
+  position: relative;
+  left: 6rem;
+  top: 11.4rem;
+ }
  
 .card_1 {
   display: flex;
@@ -786,94 +791,262 @@ a:hover {
   left: 1.3rem;
 }
 
+                                  /*End of headers for the first page*/
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /*End of headers for the first page*/
-
-
- .div-one {
+ .div-21 {
    position: relative;
    left: 2rem;
-   top: 2.3rem;
-   width: 87%;
+   top: 8.5rem;
+   width: 46%;
  }
 
- .div-two {
+ .div-22 {
   position: relative;
-  left: 2rem;
-  top: 2.3rem;
-  width: 113%;
+  left: 32rem;
+  top: 1.8rem;
+  width: 34%;
 }
 
-.div-three {
+.div-23 {
   position: relative;
-  left: 2rem;
-  top: 2.3rem;
-  width: 113%;
+  left: 56rem;
+  top: -3.55rem;
+  width: 43%;
 }
+/*images*/
 
- .div-four h4 {
+
+
+.div-24 h4 {
   font-size: 1.2rem;
   position: relative;
-  left: 3.3rem;
-  top: 1.4rem;
+  left: 11.8rem;
+  top: -1rem;
   text-align: center;
   word-wrap: break-word;
   width: 12rem;
  }
 
- .div-five h4 {
+ .div-25 h4 {
   font-size: 1.2rem;
   position: relative;
-  left: 3.3rem;
-  top: 1.4rem;
+  left: 40.3rem;
+  top: -6rem;
   word-wrap: break-word;
-  width: 12rem;
+  width: 10rem;
  }
 
- .div-six h4 {
+ .div-26 h4 {
   font-size: 1.2rem;
   position: relative;
-  left: 0.8rem;
-  top: 1.4rem;
+  left: 64.8rem;
+  top: -10rem;
   text-align: center;
   word-wrap: break-word;
   width: 13rem;
  }
+/*End of title*/
 
- .div-seven p {
+ .div-27 p {
   position: relative;
-  left: 5rem;
-  top: 11.4rem;
+  left: 7.7rem;
+  top: -10.6rem;
+  word-break: break-all;
+  width: 19%;
 }
 
-  .div-eight p {
+.div-28 p {
   position: relative;
-  left: 15rem;
-  top: 11.4rem;
+  left: 35rem;
+  top: -17.3rem;
+  word-break: break-all;
+  width: 23%;
 }
 
- .div-nine p {
+ .div-29 p {
   position: relative;
-  left: 27rem;
-  top: 11.4rem;
+  left: 66rem;
+  top: -24rem;
+  word-break: break-all;
+  width: 13%;
  }
+ /*End of paragraph*/
+
+
+ .div-30  {
+  font-size: 1.35rem;
+  position: relative;
+  left: 13rem;
+  top: -23rem;
+}
+
+.div-31  {
+ font-size: 1.35rem;
+ position: relative;
+ top: -26rem;
+ left: 44rem;
+}
+
+.div-32 {
+ font-size: 1.35rem;
+ position: relative;
+ left: 70rem;
+ top: -29rem;
+}
+
+/*End of prices*/
+
+.card_9 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -32rem;
+  top: -36rem;
+}
+
+.card_10 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -1rem;
+  top: -39rem;
+}
+
+.card_11 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 21rem;
+  top: -43rem;
+}
+
+/*End of increments*/
+
+
+.side_orders h1 {
+  position: relative;
+  top: -38rem;
+}
+
+.side_orders p {
+  position: relative;
+  left: 38rem;
+  top: -38rem;
+}
+
+.div-33 img {
+  position: relative;
+  top: -40rem;
+  width: 10%;
+}
+
+.div-34 img {
+  position: relative;
+  left: -10rem;
+  top: -49rem;
+  width: 10%;
+}
+
+.div-35 img {
+  position: relative;
+  left: 39rem;
+  top: -49rem;
+  width: 12%;
+}
+
+.div-36 img {
+  position: relative;
+  left: 59rem;
+  top: -56rem;
+  width: 12%;
+}
+
+/*End of images for second page*/
+
+
+.div-37 h4 {
+  position: relative;
+  left: 9rem;
+  top: -53rem;
+  text-align: center;
+  word-break: break-all;
+  width: 13rem;
+}
+
+.div-38 h4 {
+  position: relative;
+  left: 29rem;
+  top: -60rem;
+  text-align: center;
+  word-break: break-all;
+  width: 16%;
+}
+
+.div-39 h4 {
+  position: relative;
+  left: 48rem;
+  top: -67rem;
+  text-align: center;
+  word-break: break-all;
+  width: 16%;
+}
+
+.div-40 h4 {
+  position: relative;
+  left: 68rem;
+  top: -69rem;
+  text-align: center;
+  word-break: break-all;
+  width: 16%;
+}
+
+/*End of titles*/
+
+.div-42 p {
+  position: relative;
+  left: 68rem;
+  top: -69rem;
+}
+
+.div-43 p {
+
+}
+
+.div-44 p {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card_4 {
+  display: flex;
+  justify-content: center;
+  margin-left: -57rem;
+  margin-top: -14rem;
+}
+
+.card_5 {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-top: -4.5rem;
+}
+
+
+
+
 
  .div-ten p {
   position: relative;
@@ -881,12 +1054,12 @@ a:hover {
   top: 11rem;
  }
 
- .div-eleven {
+ .div-33 {
   position: relative;
   top: 11rem;
  }
 
- .div-twelve p {
+ .div-34 {
   position: relative;
   left: 32rem;
   top: 11rem;
@@ -896,30 +1069,12 @@ a:hover {
   margin-top: 30rem;
  }
 
- .div-thirteen img {
-  margin-left: 5rem;
-  margin-top: 7rem;
-  width: 15%;
- }
-
  .div-4 h4 {
   margin-left: -9rem;
   margin-top: 6rem;
  }
 
- .div-fourteen img 
-
- .div-fourteen  {
-  width: 25%;
- }
-
- .div-fifteen  {
-  width: 25%;
- }
-
- .div-sixteen  {
-  width: 25%;
- }
+ 
 
 
 
@@ -946,20 +1101,7 @@ a:hover {
   text-align: justify;
 }*/                           /*THIS WAS THE REASON MAJORITY OF THE PARAGRAPHS WOULDN'T TURN WHTIE IN THE DARK MODE THEME*/
 
-.div-7 p {
-  position: relative;
-  left: 5rem;
-}
 
-  .div-8 p {
-  position: relative;
-  left: 15rem;
-}
-
- .div-9 p {
-  position: relative;
-  left: 27rem;
- }
 
 
  /*End of description/paragraph*/
@@ -984,39 +1126,6 @@ a:hover {
 
 
 
-.div-10 p {
-  font-size: 1.35rem;
-  position: relative;
-  left: -23rem;
-}
-
-.div-11 p {
- font-size: 1.35rem;
- position: relative;
- left: 1rem;
-}
-
-.div-12 p {
- font-size: 1.35rem;
- position: relative;
- left: 27rem;
-}
-
-
-
-/*End of prices*/
-
-/*
-img {
-  position: relative;
-  left: 2rem;
-  top: -22rem;
-  width: 40%;
-
-  flex-basis: 100px;
-}
-*/
- 
 
 
 /*Creates the increments*/
@@ -1028,20 +1137,6 @@ img {
 .wrapper_5 {
   margin-left: 18rem;
 }
-/*Moves increments position*/
-
-
-
-
-/*
-#back-to-top-arrow {
-  bottom: 40px;
-  position: fixed;
-  left: 87rem;
-  width: 45%;
- 
-}
-
 
 
 @media print,
