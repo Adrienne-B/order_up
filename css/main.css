@@ -1005,44 +1005,150 @@ a:hover {
 
 /*End of titles*/
 
-.div-42 p {
+
+
+
+.contain_four {
   position: relative;
-  left: 68rem;
-  top: -69rem;
-}
+  left: -30rem;
+  top: -62.4rem;
+ }
 
-.div-43 p {
+ .contain_five {
+  position: relative;
+  left: -7rem;
+  top: -66.5rem;
+ }
 
-}
+ .contain_six {
+  position: relative;
+  left: 13rem;
+  top: -70.4rem;
+ }
 
-.div-44 p {
+ .contain_seven {
+  position: relative;
+  left: 33rem;
+  top: -74.4rem;
+ }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.card_4 {
+.card_12{
   display: flex;
   justify-content: center;
-  margin-left: -57rem;
-  margin-top: -14rem;
+  left: 1rem;
+  top: 34.5rem;
 }
 
-.card_5 {
+.card_13{
   display: flex;
   justify-content: center;
-  margin-left: 1rem;
+  left: 55rem;
+  top: -4.5rem;
+}
+
+.card_14 {
+  display: flex;
+  justify-content: center;
+  left: -57rem;
+  top: -14rem;
+}
+
+.card_15 {
+  display: flex;
+  justify-content: center;
+  left: 1rem;
+  top: -4.5rem;
+}
+
+.card_6 {
+  display: flex;
+  justify-content: center;
+  margin-left: 55rem;
   margin-top: -4.5rem;
 }
+
+
+.card_7 {
+  display: flex;
+  justify-content: center;
+  margin-left: -32rem;
+  margin-top: -4.5rem;
+}
+
+.card_8 {
+  display: flex;
+  justify-content: center;
+  margin-left: 27rem;
+  margin-top: -4.3rem;
+}
+
+/*End of increments for second page  */
+
+
+
+
+
+
+
+
+
+
+
+
+.introduction4 h1 {
+  position: relative;
+  left: 2rem;
+  top: -43rem;
+}
+
+.wrapper_16 {
+  position: relative;
+  left: 2rem;
+  top: -38rem;
+}
+
+
+
+.wrapper_17 {
+  position: relative;
+  left: 43rem;
+  top: -43rem;
+}
+
+.div-42 {
+  position: relative;
+  left: 6rem;
+  top: -1rem;
+}
+
+.div-43  {
+  position: relative;
+  left: 6rem;
+  top: -1rem;
+}
+
+.div-44  {
+  position: relative;
+  left: 6rem;
+  top: -1rem;
+}
+
+.wrapper_18 {
+  position: relative;
+  left: 61rem;
+  top: -62rem;
+}
+
+.arrows_2 {
+  position: relative;
+  left: 36rem;
+  top: -38rem;
+}
+
+
+
+
+
 
 
 
