@@ -2,7 +2,16 @@ var body = document.querySelector("body");
 var themeSwitchInput = document.querySelector("#toggle");
 var ball = document.querySelector(".ball");
 
-
+//var h1 = document.querySelector("h1");
+var firstTitle = document.querySelector('.firstTitle');
+var secondTitle = document.querySelector(".secondTitle");
+var thirdTitle = document.querySelector(".thirdTitle");
+var fourthTitle = document.querySelector(".fourthTitle");
+var fifthTitle = document.querySelector(".fifthTitle");
+var sixthTitle = document.querySelector(".sixthTitle");
+var seventhTitle = document.querySelector(".seventhTitle");
+var eighthTitle = document.querySelector(".eigthTitle");
+  
   
 
 themeSwitchInput.addEventListener("click", function () {
@@ -10,15 +19,56 @@ themeSwitchInput.addEventListener("click", function () {
       body.classList.remove("light");
       ball.classList.remove("move-right");
      //h1.innerText = "Stealth Quincy";
+    // h1.innerText = "Instructions";
+     firstTitle.innerText ="Cheese Burger with Extra Cheese";
+     secondTitle.innerText ="Becond Deluxe Cheese Burger";
+     thirdTitle.innerText ="Double Big Cheese Burger";
+     fourthTitle.innerText ="Grilled Chicken Sandwich";
+     fifthTitle.innerText ="Double Cheesy Chicken Sandwich";
+     sixthTitle.innerText ="Double Deluxe Chicken Sandwich";
+     seventhTitle.innerText ="Fish Sandwich";
+     eighthTitle.innerText ="Deluxe Fish Sandwich";
     } else {
       body.classList.add("light");
       ball.classList.add("move-right");
-      //h1.innerText = "Party Quincy";
-      // cheeseBurger.src = "img/upside_down_biscuit.jpg";
-      //cheeseBurger.alt = "cheese_burger";
+      //h1.innerText = "Stealth Quincy";
+      firstTitle.innerText ="Deluxe Breakfast Biscuit";
+      secondTitle.innerText ="Upside Down Egg Breakfast Biscuit";
+      thirdTitle.innerText ="Spicy Sausage Breakfast Biscuit";
+      fourthTitle.innerText ="Toast Breakfast Plate";
+      fifthTitle.innerText ="Waffle Breakfast Plate";
+      sixthTitle.innerText ="French Toast Breakfast Plate";
+      seventhTitle.innerText ="Simple Crepe Breakfast";
+      eighthTitle.innerText ="Vegetarian Crepe Breakfast";
     }
   });
   //END OF THE TOGGLE SPECICIAL EFFECTS
+
+
+
+//document.getElementById("first_title")
+//first.addEventListener('toggle,' function () {
+  //if (body.classList.contains("first_title")) {
+   // body.classList.remove("first_title");
+    //ball.classList.remove("move-right");
+  // firstTitle.innerText = "Stealth Quincy";
+  //} else {
+    //body.classList.add("first_title");
+    //ball.classList.add("move-right");
+ // }
+//});
+//END OF THE TOGGLE SPECICIAL EFFECTS
+
+//});
+//first.addEventListener('toggle,' myFunction);
+
+
+ 
+
+
+
+
+
 
 
 

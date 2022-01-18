@@ -321,6 +321,10 @@ img:hover {
     transition: transform 0.2s ease-out;
   }
 
+  .breakfast {
+    background-image: url("../img/toast_breakfast_plate.png");
+  }
+
 
 h1 {
   font-family: 'Comic Sans MS';
@@ -329,8 +333,9 @@ h1 {
 
   h2 {
     position: relative;
-    left: 9rem;
-    top: -1rem;
+   /* left: 9rem;*/
+    text-align: center;
+   top: -1.3rem;
   }
   
   h5{
@@ -414,16 +419,16 @@ h1 {
 
 
 
-  .introduction{
+  .introduction h2{
     line-height: 10px;
     margin-top: 10rem;
   }
 
-  .introduction2 h1 {
+  .introduction2 h2 {
     margin-top: 28rem;
   }
  
-  .introduction3 h1 {
+  .introduction3 h2 {
    margin-top: 25rem;
   }
 
