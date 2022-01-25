@@ -11,6 +11,10 @@ var fifthTitle = document.querySelector(".fifthTitle");
 var sixthTitle = document.querySelector(".sixthTitle");
 var seventhTitle = document.querySelector(".seventhTitle");
 var eighthTitle = document.querySelector(".eigthTitle");
+/*Ending of Titles */
+
+
+//var descriptOne = document.querySelector(".descriptOne");
   
   
 
@@ -18,9 +22,9 @@ themeSwitchInput.addEventListener("click", function () {
     if (body.classList.contains("light")) {
       body.classList.remove("light");
       ball.classList.remove("move-right");
-     //h1.innerText = "Stealth Quincy";
-    // h1.innerText = "Instructions";
+
      firstTitle.innerText ="Cheese Burger with Extra Cheese";
+     //descriptOne.innerText="Two buns, double American cheese, patti, lettues, tomatoes, pickles, red onions, ketechup, mustard, and mayo";
      secondTitle.innerText ="Becond Deluxe Cheese Burger";
      thirdTitle.innerText ="Double Big Cheese Burger";
      fourthTitle.innerText ="Grilled Chicken Sandwich";
@@ -28,20 +32,29 @@ themeSwitchInput.addEventListener("click", function () {
      sixthTitle.innerText ="Double Deluxe Chicken Sandwich";
      seventhTitle.innerText ="Fish Sandwich";
      eighthTitle.innerText ="Deluxe Fish Sandwich";
+     descriptOne.innerText="THIS IS A TEST"; 
+      /**End of heading/Titles */
+    // descriptOne.innerText = "Two buns, double American cheese, patti, lettues, tomatoes, pickles, red onions, ketechup, mustard, and mayo.";
     } else {
       body.classList.add("light");
       ball.classList.add("move-right");
-      //h1.innerText = "Stealth Quincy";
       firstTitle.innerText ="Deluxe Breakfast Biscuit";
-      secondTitle.innerText ="Upside Down Egg Breakfast Biscuit";
+      secondTitle.innerText ="Deluxe Breakfast Biscuit";
+      //descriptOne.innerText="Two biscuits, cheese, egg, and bacon.";
+      //secondTitle.innerText ="Upside Down Egg Breakfast Biscuit";
       thirdTitle.innerText ="Spicy Sausage Breakfast Biscuit";
       fourthTitle.innerText ="Toast Breakfast Plate";
       fifthTitle.innerText ="Waffle Breakfast Plate";
       sixthTitle.innerText ="French Toast Breakfast Plate";
       seventhTitle.innerText ="Simple Crepe Breakfast";
       eighthTitle.innerText ="Vegetarian Crepe Breakfast";
+
+      descriptOne.innerText="THIS IS NOT A TEST"
     }
   });
+
+
+
   //END OF THE TOGGLE SPECICIAL EFFECTS
 
 
